@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 16, 2015 at 05:18 PM
+-- Generation Time: Jun 17, 2015 at 05:29 PM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `dyn_menu` (
   `link_url` varchar(100) NOT NULL DEFAULT '#',
   `parent_id` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=58 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=60 ;
 
 --
 -- Dumping data for table `dyn_menu`
@@ -82,7 +82,7 @@ CREATE TABLE IF NOT EXISTS `page_content` (
   `image` varchar(50) DEFAULT NULL,
   `module` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`page_no`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=58 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=60 ;
 
 --
 -- Dumping data for table `page_content`

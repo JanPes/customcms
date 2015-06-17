@@ -4,7 +4,7 @@
 	
 	if($db_main->connect_errno > 0){
     die('Unable to connect to database [' . $db_main->connect_error . ']');}
-$sql_main = "SELECT module from page_content";
+$sql_main = "SELECT DISTINCT module from page_content";
 $result_module = $db_main->query($sql_main);
 if(!$result_module = $db_main->query($sql_main)){
     die('There was an error running the query [' . $db_main->error . ']');

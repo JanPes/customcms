@@ -12,7 +12,7 @@ if(!$result_main = $db_main->query($sql_main)){
     die('There was an error running the query [' . $db_main->error . ']');
 }
 	while($row_main = $result_main->fetch_assoc()){
-		    echo '<li><a href="index.php?page_no_main=' . $row_main['page_no'] . '">' . $row_main['title'] . '</a></li>';
+		    echo '<li><a href="index.php?page_no_main=' . $row_main['page_no'] . '">' . $row_main['title'] . '<span class="editPage"> Edit page</span></a></li>';
 		}
 	
 ?>

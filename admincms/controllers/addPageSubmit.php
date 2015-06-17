@@ -30,5 +30,5 @@ header('Location: ../index.php?page_no=4');
 						
 			mysqli_close($db_main);
  			
-header('Location: http://www.kioskea.net/forum/');			
+			
 ?>
